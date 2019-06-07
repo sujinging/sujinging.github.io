@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Fredoka+One|Nanum+Gothic|Noto+Sans+KR|Pacifico|Patua+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Bungee|Caveat+Brush|Fredoka+One|Noto+Sans+KR|Paytone+One|Righteous|Ruda|Shrikhand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Fredoka+One|Pacifico|Patua+One" rel="stylesheet">
+
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+			font-family: 'Noto Sans KR', sans-serif;
+		}
+
+	header {
+		z-index: 9;
+		width:100%;
+		height:75px;
+		background-color: rgba(255,255,255,0.6); /*완전 상단 흰부분*/
+		position:fixed;
+		left:0; top:0;
+	}
+  header:hover {
+    background-color:#d4d3f4;
+   }
+
+	header nav a{text-decoration: none; color:black;}
+
+	header h1 {
+		float: left;
+		padding-top: 2px;
+    padding-left:20px;
+	}
+	header nav {
+		float: right;
+	}
+	header nav li{
+		margin-right: 15px;
+		display: inline-block;
+		padding:10PX  0px 0px 30px;
+		line-height: 50px;
+		position: relative;
+		}
+
+	nav {
+		list-style-type: none;
+	}
+
+	ul.top{
+		position: absolute; /*위치를 잡아라*/
+		left: 0;
+		display: none; /*투뎁스 사라졌음*/
+			}
+	header nav li:hover > ul.top {
+		display: block;
+	}
+	ul.top li{
+		width: 150px; height: 40px;
+		background: #fff;
+		padding: 0 10px;
+		border-bottom: 1px solid #ccc;
+		line-height: 40px;
+	}
+  .name {padding-top: 20px;
+		padding-bottom: 40px;
+		padding-left: 600px;}
+  .name h1{
+      padding bottom:10px;
+      border-bottom :solid 2px #fff000;
+      width:910px;
+  }
+	section.movie {
+		clear:both;
+    padding-left: 450px;
+    padding-top:80px;
+    background-color:#652ebc;
+		background-position: center;
+		width:100%;
+		height:900px;
+    color:white;
+	}
+	.movie h1{
+		padding-top:20px;
+	}
+	.movie h3{
+			padding-bottom:20px;
+			margin-bottom: 10px;
+	    border-bottom :solid 2px #fff000;
+	    width:650px;
+	}
+  section.conA .name{
+		border-top: dotted;
+    padding-top:200px;
+    padding-left:330px;
+  }
+	 .conA img:hover{
+ 	margin-bottom: 5px;
+ 	border:1px solid #CCC;
+	}
+	section.conA .album{
+		text-align: center;
+		display:flex;
+		height: 600px;
+		border-width: 2px;
+		padding-top: 130px;
+	}
+	section.conA li{
+		flex:1;
+		list-style-type: none;
+  }
+  section.main_banner {
+		clear:both;
+		background-image: url(aa.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		position:relative;
+		width:100%;
+		height:800px;
+	}
+  footer {
+    background-color: #d4d3f4;
+    color:white;
+    padding: 20px;
+  }
+  footer .top a {display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 130px;
+    padding: 20px;
+    border-radius : 50px;
+    font-family:'Fredoka One', cursive;}
+  }
+  .footer_nav{
+    display:flex;}
+  .footer_nav  .copyRight{
+    flex:1;}
+  .footer_nav .sns{
+    text-align: right;
+    font-size: 32px;
+    padding-left: 10px;
+  }
+  .footer_nav .sns li{
+    display: inline-block;
+  }
+
+	</style>
+</head>
+
+
+<header>
+	<h1><a href="index.html"> <img src="logo.png" width="150px"></a></h1>
+	<nav>
+			<ul class="gnb">
+				<li><a href="main.html">ALBUM</a></li>
+        <li><a href="paul.html">PAUL KIM</a>
+          <ul class="top">
+            <li>ABOUT</li>
+            <li>SONG LIST</li>
+          </ul></li>
+				<li><a href="seung.html">SEUNG HWAN</a>
+          <ul class="top">
+            <li>ABOUT</li>
+            <li>SONG LIST</li>
+          </ul></li>
+			</ul>
+		</nav>
+</header>
+
+  <section class= "movie">
+    <video width="640" height="480" controls autoplay>
+      <source src="spell.mp4" type="video/mp4">
+    </video>
+      <h1> Paul Kim </h1>
+      <h3> 고막 남친 폴킴 </h3><br>
+      <h5> 폴킴을 좋아하게 된지 2년이 다되어갈 때쯤 처음 보았던 폴킴의 무대.<br>
+        따뜻한 목소리를 따뜻한 표정,귀여운 몸짓/율동과 함께 보여주는 무대. <br>
+        유튜브로만 보았던 영상 속 폴킴의 모습과 너무 똑같아 놀랐던 무대. <br>
+        폴킴과 눈이 마주치고 리듬타던 내 몸짓도 따라해주던 무대. <br>
+        행복함이 느껴져 절로 웃음이 났었던 무대.</h5>
+  </section>
+
+  <section class= "conA">
+    <ul class="name">
+      <h1 style="text-align: left;">Song List</h1><br>
+      Wonder Woman Festival에서 불렀던 노래들
+    </ul>
+    <ul class= "album">
+	<li>
+		<a href="https://www.melon.com/search/total/index.htm?q=%ED%8F%B4%ED%82%B4&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form">
+      <img src="a1.png" width="200px;"></a>
+		  <h3> 비</h3>
+		    <h5>우비 속에서 빗소리와 함께 들어 더 좋았던 노래</h5>
+	</li>
+	<li>
+    <a href="https://www.melon.com/search/total/index.htm?q=%ED%8F%B4%ED%82%B4&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form">
+	   <img src="a2.jpg" width="200px;"></a>
+		   <h3> Her, spell </h3>
+		  <h5>그대는 나를 좋아한다 라는 노래 가사처럼,<br> 진짜로 좋아지는 노래</h5>
+	</li>
+	<li>
+    <a href="https://www.melon.com/search/total/index.htm?q=%ED%8F%B4%ED%82%B4&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form">
+	   <img src="a3.jpg" width="200px;"></a>
+		   <h3> 있잖아</h3>
+	      <h5>따뜻한 눈빛으로 불러주는 최고의 노래</h5>
+	</li>
+  <li>
+    <a href="https://www.melon.com/search/total/index.htm?q=%ED%8F%B4%ED%82%B4&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form">
+	   <img src="a4.jpg" width="200px;"></a>
+		   <h3>모든 날 모든 순간</h3>
+	      <h5>다같이 떼창하면서 불러 더 행복했던 노래</h5>
+	</li>
+  <li>
+    <a href="https://www.melon.com/search/total/index.htm?q=%ED%8F%B4%ED%82%B4&section=&searchGnbYn=Y&kkoSpl=N&kkoDpType=&ipath=srch_form">
+	   <img src="a5.jpg" width="200px;"></a>
+		   <h3> 휴가</h3>
+	      <h5>힘들고 지칠 때쯤 리듬타면서 듣기 좋은 노래</h5>
+	</li>
+</ul>
+
+</section>
+<section class= "main_banner">
+
+
+</section>
+
+<footer>
+	<div class="top">
+     <a href="paul.html"><p><class>TOP</class></p></a>
+  </div><br>
+	<nav class= "footer_nav">
+
+    <p class= "copyRight">copyright 2018 계원예술대학교 21861133 황수진 <br>
+	마음 속에 담아둔 행복했던 하루를 소개합니다. </p>
+	<ul class= "sns">
+		<li><a href="http://www.facebook.com/wonderwomanstory" target="blank"><i class="fab fa-facebook"></i></a></li>
+		<li><a href="http://blog.naver.com/micimpact" target="blank"><i class="fab fa-blogger"></i></a></li>
+		<li><a href="https://instagram.com/wonderwomanfestival/" target="blank"><i class="fab fa-instagram"></i></a></li>
+	</ul>
+
+	</nav>
+
+</footer>
+</html>

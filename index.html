@@ -1,0 +1,326 @@
+<!--21861133 황수진 -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sujin folio</title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Fredoka+One|Nanum+Gothic|Noto+Sans+KR|Pacifico|Patua+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Caveat+Brush|Fredoka+One|Noto+Sans+KR|Paytone+One|Righteous|Ruda|Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Fredoka+One|Pacifico|Patua+One" rel="stylesheet">
+
+    	<style>
+    		*{
+    			margin:0;
+    			padding:0;
+    			box-sizing: border-box;
+    			font-family: 'Noto Sans KR', sans-serif;
+    		}
+        /* 00픽셀 미만인 스마트폰 */
+		[class*="c_"] {
+			width:100%;
+		}
+		/* 600픽셀 이상인 태블릿 */
+		@media only screen and (min-width:600px) {
+			.c_m_1 {width:8.33%;}
+			.c_m_2 {width:16.66%;}
+			.c_m_3 {width:25%;}
+			.c_m_4 {width:33.33%;}
+			.c_m_5 {width:41.66%;}
+			.c_m_6 {width:50%;}
+			.c_m_7 {width:58.33%;}
+			.c_m_8 {width:66.66%;}
+			.c_m_9 {width:75%;}
+			.c_m_10 {width:83.33%;}
+			.c_m_11 {width:91.66%;}
+			.c_m_12 {width:100%;}
+		}
+		/* 데스크톱 컴퓨터, 노트북 등 */
+		@media only screen and (min-width:768px) {
+			.c_1 {width:8.33%;}
+			.c_2 {width:16.66%;}
+			.c_3 {width:25%;}
+			.c_4 {width:33.33%;}
+			.c_5 {width:41.66%;}
+			.c_6 {width:50%;}
+			.c_7 {width:58.33%;}
+			.c_8 {width:66.66%;}
+			.c_9 {width:75%;}
+			.c_10 {width:83.33%;}
+			.c_11 {width:91.66%;}
+			.c_12 {width:100%;}
+		}
+    	header {
+    		z-index: 9;
+    		width:100%;
+    		height:75px;
+    		background-color:#ffffff; /*완전 상단 흰부분*/
+    		position:fixed;
+    		left:0; top:0;
+    	}
+    	header nav a{
+        text-decoration: none; color:black;
+      }
+      header nav a:hover{
+        color:#f4d760;
+      }
+    	header h1 {
+    		float: left;
+    		padding-top: 15px;
+        padding-left:20px;
+    	}
+    	header nav {
+    		float: right;
+        padding-right:20px;
+        font-size:13px;
+    	}
+    	header nav li{
+    		margin-right: 15px;
+    		display: inline-block;
+    		padding:10PX  0px 0px 15px;
+    		line-height: 50px;
+    		position: relative;
+        list-style-type: none;
+    		}
+      li {
+        list-style-type: none;
+      }
+    	ul.top{
+    		position: absolute; /*위치를 잡아라*/
+    		left: 0;
+    			}
+    	header nav li:hover > ul.top {
+    		display: block;
+    	}
+    	ul.top li{
+    		width: 150px; height: 40px;
+    		background: #fff;
+    		padding: 0 10px;
+    		border-bottom: 1px solid #ccc;
+    		line-height: 40px;
+    	}
+
+      #content1{
+        height:900px;
+        background-size: 100%;
+        background-position: 100% 100%;
+        background-color:#f4d760;
+      }
+      #content1:active {
+        background-color:#ffce00;
+      }
+      #content2{
+        padding-left:200px;
+      }
+
+      #content3{
+        padding-left:200px;
+      }
+      #content4{
+        padding-left:200px;
+        background-color:#fff3c0;
+      }
+      #content4 a img {
+        width:300px;
+      }
+      h3 {
+        font-family:"나눔스퀘어";
+        font-weight:bold;
+        font-size:18px;
+        color:#000000;
+        margin-top:10px;
+      }
+
+      .box {
+        display:inline-block;
+        width:570px;
+        height:400px;
+        margin:10px;
+        margin-left:200px;
+        border:solid 3px #f9e075;
+        margin-top:50px;
+        background-color:#f9e075;
+        color:white;
+
+      }
+      #member_form{
+          width:460px;
+          margin:0px 0 0 0px;
+          font-family:"돋움";
+          font-size:12px;
+          color:white;
+          padding-top:5px;
+          padding-bottom:10px;
+          border-top:solid 1px #000000;
+          padding-left:200px;
+      }
+      footer {
+        font-size:13px;
+        height:80px;
+        clear:both;
+        text-align:center;
+        border:solid 3px #f9e075;
+        color:black;
+      }
+      h3{
+        color::white;
+      }
+
+    </style>
+
+
+  </head>
+
+    <header>
+    	<h1><a href="index.html"> <img src="img/logo.png" width="100px"></a></h1>
+    	<nav>
+    		<ul class="gnb">
+    			<li><li id='nb'><a href='#content2'>ABOUT ME</a></li>
+    			<li><li id='nb'><a href='#content4'>WORK</a></li>
+    			<li><li id='nb'><a href='#content5'>CONTACT</a></li>
+    		</ul>
+    		</nav>
+    </header>
+    <section>
+      <div id="main" class="scroll-container">
+		    <section id="content1" class="c_m_12 c_12">
+				<div id='nb'>
+					<img src='img/back2.png' style='width:100%; height:100%; color:black;'>
+        </div>
+      </div>
+
+      <div class='clear'></div>
+
+      <section id="section2" class="c_m_12 c_12">
+      <br><br>
+			<div id='content2' style='top:0px; margin-top:40px; margin-bottom:40px;'>
+			<ul>
+				<h3> <img src="img/ye1.png"></h3><br><br>
+          <li><img src="img/me_2.png"></li><br>
+          <li><img src="img/about.png"></li>
+        </ul>
+     </div>
+
+     <div id='content3' style='top:0px; margin-top:40px; margin-bottom:30px;'>
+
+       <p id="education">
+         <br>
+         <h3><img src="img/ye2.png"></h3>
+         <br><b>
+         2013.03 ~ 2015.02 불암중학교 <br>
+         2015.03 ~ 2017.02 용화여자고등학교 <br>
+         2018.03 ~ 현재 계원예술대학교 디지털미디어디자인학과</b>
+         <br><br><br>
+
+
+       <p id= skill_text>
+   		     <h3><img src="img/ye3.png"></h3><br>
+          <img id="skill" src = "img/skill.png"></img>
+        </div>
+        </section>
+
+<!----------------작업물 설명 --------------->
+
+      <div id='content4' style='top:0px; margin-top:40px; margin-bottom:30px;'>
+<br><br><br><br><br><br>
+      <h3><img src="img/ye4.png"</h3>
+      <br><br><br><br><br><br>
+
+      <a href="../week_finish\index.html"><img src="img/web0.png" alt=""></a>
+      <h3>MIDDLE TEST</h3>
+      <ul>
+        <li>‎2019‎.04.25‎.‎금</li>
+        <br>
+        <li>즐거웠던 원더우먼 페스티벌 페이지 제작</li>
+      </ul>
+      <br><br><br><br><br><br>
+
+
+      <a href="../week1\index8_21861133.html"><img src="img/web1.png" alt=""></a>
+      <h3>로그인 화면</h3>
+      <ul>
+        <li>2019‎.05‎.03‎.‎금</li>
+        <br>
+        <li>로그인 페이지 제작</li>
+      </ul>
+      <br><br><br><br><br><br>
+
+      <a href="../week3\index10_21861133.html"><img src="img/web2.png" alt=""></a>
+      <h3>PROJECT 4U</h3>
+      <ul>
+        <li>‎2019‎.‎05.‎17‎.금</li>
+        <br>
+        <li>프로젝트 스튜디오 프로젝트를 설명하는 사이트 제작</li>
+      </ul>
+      <br><br><br><br><br><br><br>
+
+      <a href="../week4\index11_21861133.html"><img src="img/web3.png" alt=""></a>
+      <h3>비긴어게인3</h3>
+      <ul>
+        <li>‎2019‎.‎05.‎24‎.금</li>
+        <br>
+        <li>곧 방영하는 비긴어게인3 홈페이지 제작</li>
+      </ul>
+      <br><br><br><br><br><br><br>
+
+      <a href="../week5\index12_21861133.html"><img src="img/web4.png" alt=""></a>
+      <h3>엄마와 함께한 다낭여행</h3>
+      <ul>
+        <li>‎2019‎.‎05.‎31‎.금</li>
+        <br><br>
+        <li>행복했던 다낭 여행 소개 사이트 제작</li>
+      </ul>
+      <br><br><br><br><br><br>
+    </div>
+
+
+<!-------------------콘텍트---------------------->
+
+    <div id='content5' style='top:0px; margin-top:40px; margin-bottom:30px;'>
+        <div class="box"> <br> CONTACT
+          <form>
+            <ul id="member_form">
+              <li>
+                <ul class="cols">
+                  <li class="col1">이름/회사명</li>
+                  <li class="col2"><input type="text"></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="cols">
+                  <li class="col1">이메일</li>
+                  <li class="col2"><input type="text">@
+                  <select id="email2">
+                    <option>선택</option>
+                    <option>naver.com</option>
+                    <option>hanmail.net</option>
+                    <option>gmail.com</option>
+                  </select></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="cols">
+                  <li class="col1">제목</li>
+                  <li class="col2"><input type="text"></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="cols">
+                  <li class="col1" id="intro">메세지</li>
+                  <li class="col2">
+                  <textarea rows="5" cols="52"></textarea></li>
+                </ul>
+              </li>
+            </ul>
+          </form>
+          <br>
+          <button type="button">보내기</button>
+          </div> <br><br><br>
+          </div>
+  <footer class="foot">
+     <br>
+     COPYRIGHT(C) Sujin All Rights Reserved.<br>
+     궁금한 사항이 있으시다면 메일로 연락주세요.
+   </footer>
+</html>

@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Fredoka+One|Nanum+Gothic|Noto+Sans+KR|Pacifico|Patua+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Bungee|Caveat+Brush|Fredoka+One|Paytone+One|Righteous|Ruda|Shrikhand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bungee|Caveat+Brush|Fredoka+One|Noto+Sans+KR|Paytone+One|Righteous|Ruda|Shrikhand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black|Fredoka+One|Pacifico|Patua+One" rel="stylesheet">
+
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			box-sizing: border-box;
+			font-family: 'Noto Sans KR', sans-serif;}
+
+	header {
+		z-index: 9;
+		width:100%;
+		height:75px;
+		background-color: rgba(255,255,255,0.6); /*완전 상단 흰부분*/
+		position:fixed;
+		left:0; top:0;
+	}
+
+	header:hover {
+    background-color:#d4d3f4;
+   }
+	header nav a{
+    text-decoration: none; color:black;
+  }
+	header h1 {
+		float: left;
+		padding-top: 2px;
+    padding-left: 20px;
+	}
+	header nav {
+		float: right;
+	}
+	header nav li{
+		margin-right: 15px;
+		display: inline-block;
+		padding:10PX  0px 0px 30px;
+		line-height: 50px;
+		position: relative;
+		}
+	nav {
+		list-style-type: none;
+	}
+	nav.gnb li:hover {color:white;}
+	ul.top{
+		position: absolute; /*위치를 잡아라*/
+		left: 0;
+		display: none; /*투뎁스 사라졌음*/
+			}
+	header nav li:hover > ul.top {
+		display: block;
+	}
+	ul.top li{
+		width: 150px; height: 40px;
+		background: #fff;
+		padding: 0 10px;
+		border-bottom: 1px solid #ccc;
+		line-height: 40px;
+	}
+	.name {
+		font-family: 'Bungee','Righteous', cursive;
+		padding-top: 500px;
+	}
+  .title {padding-top: 50px;
+		padding-bottom: 50px;
+		padding-left: 330px;
+    color: #fff000;
+    background-color: #652ebc;
+		height: 1000px;
+  }
+	.title ul{
+		color:white;
+	}
+	.title h3{
+		padding-bottom:20px;
+		margin-bottom: 10px;
+    border-bottom :solid 2px #fff000;
+    width:800px;
+
+
+	}
+  .ja {padding-top:75px;}
+ 
+	.img {padding-top: 20px;
+		padding-bottom: 40px;
+		padding-left: 330px;}
+
+  .img h1 {
+    padding bottom:10px;
+    border-bottom :solid 2px #fff000;
+    width:910px;
+  }
+  .sajin{
+    padding-top:20px;
+  }
+	.sajin img {
+	margin-bottom: 5px;
+	border:1px solid #CCC;
+	opacity :0.4; /*1이 완전 불투명 0이 완전 투명*/
+	}
+	.sajin img {
+	border:1px solid #000;
+	opacity: 1.0;
+	}
+
+  .food {padding-top: 20px;
+		padding-bottom: 40px;
+		padding-left: 330px;}
+
+  .food h1 {
+    padding bottom:10px;
+    border-bottom :solid 2px #fff000;
+    width:910px;
+  }
+  .ffff{
+    padding-left:40px;
+    padding-top:15px;
+  }
+  .eat1 {
+    padding-left:190px;
+    padding-top:20px;
+  }
+
+	section span {
+			margin: 200px;
+			margin-top: 150px;
+	}
+	section.main_banner {
+		clear:both;
+		background-image: url(oh.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		position:relative;
+		width:100%;
+		height:900px;
+	}
+	footer {
+		background-color: #d4d3f4;
+		color:white;
+		padding: 20px;
+	}
+	footer .top a {display: inline-block;
+		text-align: center;
+		background-color: white;
+		width: 130px;
+		padding: 20px;
+		border-radius : 50px;
+		font-family:'Fredoka One', cursive;}
+	}
+	.footer_nav{
+		display:flex;}
+	.footer_nav  .copyRight{
+		flex:1;}
+	.footer_nav .sns{
+		text-align: right;
+		font-size: 32px;
+		padding-left: 10px;
+	}
+	.footer_nav .sns li{
+    display: inline-block;
+    }
+
+	</style>
+</head>
+
+
+<header>
+	<h1><a href="index.html"> <img src="logo.png" width="150px"></a></h1>
+	<nav>
+			<ul class="gnb">
+				<li><a href="main.html">ABOUT</a></li>
+        <li><a href="paul.html">PAUL KIM</a>
+          <ul class="top">
+						<li>ABOUT</li>
+            <li>SONG LIST</li>
+          </ul></li>
+				<li><a href="seung.html">SEUNG HWAN</a>
+          <ul class="top">
+						<li>ABOUT</li>
+            <li>SONG LIST</li>
+          </ul>
+				</li>
+			</ul>
+		</nav>
+</header>
+
+<section class="ja">
+
+</section>
+
+<section class="title">
+  <br>
+  <h2>우리 제대로 </h2><br>
+  <h2>발칙하게 놀아보자! </h2><br><br>
+  <h3>나는 그냥 나니까; Real me</h3><br>
+	<h5> <ul>세상이 제멋대로 정해둔 기준 말고 <br>
+		내가 태어난 대로!<br>
+		그냥 원하는 대로!<br>
+		온전한 나로서 존재 하고 싶은 당신을 위한! <br><br>
+		답답한 이야기 접어두고 <br>
+		솔직한 내 안의 욕망과 마주할 시간 <br><br><br><br> </h5></ul>
+  <embed src="so.gif"></embed>
+
+
+</section>
+
+<section class="img">
+  <br>
+    <h1 style="text-align: left;">Line up</h1><br>
+    Wonder Woman Festival의 최고의 라인업-<br>
+
+    <ul class="sajin">
+    <img src="1.png" width="300px;">
+    <img src="2.png" width="300px;">
+    <img src="3.png" width="300px;"><br>
+    <img src="4.png" width="300px;">
+    <img src="5.png" width="300px;">
+    <img src="6.png" width="300px;"><br>
+    <img src="7.png" width="300px;">
+    <img src="8.png" width="300px;">
+    <img src="9.png" width="300px;"><br></ul>
+</section>
+
+<section class="food">
+  <br>
+    <h1 style="text-align: left;">Food truck</h1><br>
+    맛있었던 현장의 푸드트럭 음식들-<br>
+
+    <ul class="ffff">
+    <img src="food1.jpg" width="400px;">
+    <img src="food2.jpg" width="400px;">
+    </ul>
+
+    <ul class="eat1">
+    <b>&nbsp&nbsp헝그리 베어&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp타코짱</b><br>
+    큐브 스테이크 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 쉬림프 타고 & 치킨 타코
+    </ul>
+
+</section>
+
+<section class= "main_banner">
+</section>
+
+
+
+<footer>
+	<div class="top">
+     <a href="main.html"><p><class>TOP</class></p></a>
+  </div><br>
+	<nav class= "footer_nav">
+
+    <p class= "copyRight">copyright 2018 계원예술대학교 21861133 황수진 <br>
+	마음 속에 담아둔 행복했던 하루를 소개합니다. </p>
+	<ul class= "sns">
+		<li><a href="http://www.facebook.com/wonderwomanstory" target="blank"><i class="fab fa-facebook"></i></a></li>
+		<li><a href="http://blog.naver.com/micimpact" target="blank"><i class="fab fa-blogger"></i></a></li>
+		<li><a href="https://instagram.com/wonderwomanfestival/" target="blank"><i class="fab fa-instagram"></i></a></li>
+	</ul>
+
+	</nav>
+
+</footer>
